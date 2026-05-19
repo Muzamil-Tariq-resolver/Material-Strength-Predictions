@@ -1,11 +1,46 @@
-# Physics-Informed Material Strength Prediction
+# Physics-Informed Concrete Strength Prediction
 
-## Overview
-Predicting the **compressive strength of concrete** using a combination of **machine learning** and **physics-informed reasoning**. By integrating domain knowledge from **materials science and civil engineering**, the model achieves high predictive accuracy while providing actionable insights for engineers and decision-makers.  
-
-The goal is to demonstrate how **physics-guided feature engineering** can improve traditional data-driven approaches, enhancing both **interpretability** and **reliability**.
+Machine Learning + Physics-Guided Approach for Predicting Concrete Compressive Strength
 
 ---
+
+# Project Overview
+
+Concrete compressive strength is a critical factor in civil engineering, determining the durability and safety of structures. Traditional empirical methods are limited in capturing nonlinear interactions between material composition and curing conditions.
+
+This project develops a **Physics-Informed Machine Learning model** to predict concrete compressive strength by combining:
+
+- Material science principles  
+- Physics-informed feature engineering  
+- Machine learning models  
+- Data-driven optimization  
+
+The objective is to improve both **prediction accuracy** and **engineering interpretability**, enabling better mix design decisions.
+
+---
+
+# Problem Statement
+
+Predicting concrete strength is challenging because:
+
+- Material components interact non-linearly  
+- Strength development depends on curing time  
+- Traditional formulas oversimplify real-world behavior  
+- Experimental testing is expensive and time-consuming  
+
+The goal is to build an intelligent system that can:
+
+- Accurately predict compressive strength (MPa)  
+- Capture physics-based relationships in concrete mixtures  
+- Identify optimal material compositions  
+- Reduce dependency on lab testing  
+- Improve construction planning and safety decisions  
+
+---
+
+# Databricks Model Integration
+
+This project includes deployment and integration using **Databricks SQL Warehouse**.
 
 ## Dataset Description
 The dataset contains **1030 real-world concrete samples** capturing material composition and curing parameters used in construction.  
