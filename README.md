@@ -15,7 +15,7 @@ This project develops a **Physics-Informed Machine Learning model** to predict c
 - Machine learning models  
 - Data-driven optimization  
 
-The objective is to improve both **prediction accuracy** and **engineering interpretability**, enabling better mix design decisions.
+The objective is to improve both prediction accuracy and engineering interpretability, enabling better mix design decisions.
 
 ---
 
@@ -40,10 +40,10 @@ The goal is to build an intelligent system that can:
 
 # Databricks Model Integration
 
-This project includes deployment and integration using **Databricks SQL Warehouse**.
+This project includes deployment and integration using Databricks SQL Warehouse.
 
 ## Dataset Description
-The dataset contains **1030 real-world concrete samples** capturing material composition and curing parameters used in construction.  
+The dataset contains real-world concrete samples capturing material composition and curing parameters used in construction.  
 
 **Input Features:**
 
@@ -81,8 +81,6 @@ Model performance was assessed using:
 - **Mean Absolute Error (MAE)**  
 - **R² Score**  
 - **Cross-validation R²** for overfitting detection  
-
-The XGBoost model achieved **R² ≈ 0.95**, confirming high predictive accuracy.
 
 ---
 
